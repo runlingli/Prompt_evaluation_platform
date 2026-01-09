@@ -29,7 +29,7 @@ This project provides a unified interface that allows you to send the same promp
 ## Supported Models
 
 - OpenAI GPT-4-mini
-- OpenAI GPT-5-mini
+- OpenAI GPT-4
 - DeepSeek Chat
 - DeepSeek Reasoner
 - Claude-haiku-3
