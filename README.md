@@ -5,8 +5,9 @@ An application for analyzing website contents using LLMs; testing and comparing 
 ## Project Overview
 
 This project provides a unified interface that allows you to send the same prompt to multiple AI models simultaneously and compare their responses side by side. It supports multiple models from OpenAI, DeepSeek and Anthropic...
-| ![main_page](frontend/src/assets/main_page.png) | ![modal_page](frontend/src/assets/modal_page.png) |
-| ----------------------------------------------- | ------------------------------------------------- |
+
+![main_page](frontend/src/assets/main_page.png)
+![modal_page](frontend/src/assets/modal_page.png)
 
 ## Tech Stack
 
