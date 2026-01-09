@@ -1,6 +1,6 @@
-# Try More Model
+# Prompt Evaluation platform
 
-An application for testing and comparing responses from multiple AI models at the same time.
+An application for analyzing website contents using LLMs; testing and comparing responses from multiple LLMs at the same time.
 
 ## Project Overview
 
@@ -13,6 +13,7 @@ This project provides a unified interface that allows you to send the same promp
 ### Frontend
 
 - React 19
+- Typescript
 - Vite
 - Tailwind CSS
 - Zustand (state management)
@@ -27,10 +28,13 @@ This project provides a unified interface that allows you to send the same promp
 ## Supported Models
 
 - OpenAI GPT-4-mini
+- OpenAI GPT-5-mini
 - DeepSeek Chat
 - DeepSeek Reasoner
 - Claude-haiku-3
 - Claude-sonnet-4
+- Gemini-3-pro
+- Gemini-3-flash
 
 ## Quick Start
 
@@ -63,6 +67,7 @@ Create a `.env` file in the `backend` directory:
 OPENAI_API_KEY=...
 DEEPSEEK_API_KEY=...
 ANTHROPIC_API_KEY=...
+GEMINI_API_KEY=...
 ```
 
 ### Run the Project
@@ -85,23 +90,9 @@ npm run dev
 
 The frontend application runs by default at `http://localhost:5173`.
 
-## Project Structure
-
-```
-.
-├── backend/          # FastAPI backend service
-│   └── main.py      # Backend entry file
-├── frontend/         # React frontend application
-│   ├── src/
-│   │   ├── components/  # React components
-│   │   ├── stores/     # Zustand state management
-│   │   └── utils/      # Utility functions
-│   └── package.json
-└── README.md
-```
-
 ## Features
 
+- Analyze web content recursively and use an AI assistant to choose useful web links
 - Send requests to multiple models simultaneously
 - Compare responses from different models side by side
 - Support custom system prompts
@@ -116,7 +107,6 @@ The frontend application runs by default at `http://localhost:5173`.
 cd frontend
 npm run dev      # Start development server
 npm run build    # Build for production
-npm run lint     # Run linting
 ```
 
 ### Backend Development

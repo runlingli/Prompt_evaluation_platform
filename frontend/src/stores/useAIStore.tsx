@@ -21,7 +21,7 @@ const useAIStore = create(
       AIcontent: {} as AIContentMap,
       checkedAI: {
         'OpenAI-4-mini': true,
-        'OpenAI-5-mini': true,
+        'OpenAI-4': true,
         'Deepseek-chat': true,
         'Deepseek-reasoner': true,
         'Claude-haiku-3': true,

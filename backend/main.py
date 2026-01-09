@@ -46,7 +46,7 @@ async def chat(message: Message):
     # mapping
     model_map = {
         "OpenAI-4-mini": "openai/gpt-4o-mini",
-        "OpenAI-5-mini": "openai/gpt-5o-mini",
+        "OpenAI-4": "openai/gpt-4",
         "Deepseek-chat": "deepseek/deepseek-chat",
         "Deepseek-reasoner": "deepseek/deepseek-reasoner",
         "Claude-haiku-3": "anthropic/claude-3-haiku-20240307",
