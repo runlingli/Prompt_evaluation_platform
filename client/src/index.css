@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;500&display=swap');
+@import "tailwindcss";
+
+
+
+@theme {
+  --font-ma: "Montserrat Alternates", sans-serif;
+}
+
+body {
+    @apply bg-linear-to-r from-indigo-950 to-purple-900 font-light
+}
+
+.scrollbar-none::-webkit-scrollbar { display: none; }  /* Chrome, Safari, Edge Chromium */
+.scrollbar-none { 
+  -ms-overflow-style: none;  /* IE, Edge */
+  scrollbar-width: none;      /* Firefox */
+}
+
+
+.w-0, h-0 {
+  padding: 0;
+  margin: 0;
+}
+
+

@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+/env/
+
+# Build artifacts
+build/
+dist/
+public/build
+out/
+__pycache__/
+backend/__pycache__/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS and Editor files
+.DS_Store
+.idea/ # JetBrains IDEs
+.vscode/ # VS Code
+*.iml
+.cache/
+.project
+.classpath
+
+# Environment variables
+.env
+backend/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing and coverage
+coverage/
+.nyc_output/
