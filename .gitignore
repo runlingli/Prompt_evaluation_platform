@@ -9,6 +9,7 @@ public/build
 out/
 __pycache__/
 backend/__pycache__/
+backend/db-data
 
 # Logs
 npm-debug.log*
