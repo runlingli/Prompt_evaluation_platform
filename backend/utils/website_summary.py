@@ -2,8 +2,8 @@
 import os
 import json
 from dotenv import load_dotenv
-from scraper_modified import fetch_website_links, fetch_website_contents
 from openai import OpenAI
+from utils.scraper_modified import fetch_website_contents, fetch_website_links
 
 load_dotenv(override=True)
 api_key = os.getenv('OPENAI_API_KEY')
